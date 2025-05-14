@@ -1,0 +1,24 @@
+{
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "../../libs/sidenav"
+    },
+    {
+      "path": "../../libs/mylib"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ],
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    "types": ["@react-router/node"]
+  }
+}

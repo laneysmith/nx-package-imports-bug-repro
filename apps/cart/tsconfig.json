@@ -3,6 +3,12 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/sidenav"
+    },
+    {
+      "path": "../../libs/mylib"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {

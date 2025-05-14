@@ -4,7 +4,16 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/laney-test-repo"
+      "path": "./libs/sidenav"
+    },
+    {
+      "path": "./apps/cart"
+    },
+    {
+      "path": "./libs/mylib"
+    },
+    {
+      "path": "./apps/inventory"
     }
   ]
 }
