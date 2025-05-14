@@ -1,5 +1,5 @@
 import styles from './sidenav.module.css';
-import { useThisHook } from '../hooks/useThisHook.js';
+import { useThisHook } from '#hooks/useThisHook.js';
 
 export function Sidenav() {
   useThisHook();

@@ -20,6 +20,8 @@ export default [
         'error',
         {
           enforceBuildableLibDependency: true,
+          // Allowing a package to import from self using package.json#imports
+          allowCircularSelfDependency: true,
           allow: ['^.*/eslint(\\.base)?\\.config\\.[cm]?js$'],
           depConstraints: [
             {

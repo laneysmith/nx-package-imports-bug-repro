@@ -16,5 +16,8 @@
   },
   "nx": {
     "name": "sidenav"
+  },
+  "imports": {
+    "#*": "./src/*"
   }
 }

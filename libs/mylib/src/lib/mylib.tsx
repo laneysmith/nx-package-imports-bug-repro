@@ -1,5 +1,5 @@
 import styles from './mylib.module.css';
-import { useThisHook } from '../hooks/useThisHook';
+import { useThisHook } from '#hooks/useThisHook.js';
 
 export function Mylib() {
   useThisHook();

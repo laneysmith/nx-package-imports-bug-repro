@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 
-import Mylib from './mylib';
+import Mylib from '#lib/mylib.js';
 
 describe('Mylib', () => {
   it('should render successfully', () => {
